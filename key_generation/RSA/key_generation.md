@@ -9,6 +9,11 @@ openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:204
 openssl rsa -pubout -in private_key.pem -out public_key.pem
 ```
 
+## RSA Key Generation
 ![RSA key Generation](../../images/rsa_generate.png)
+
+## RSA Private Key
 ![Private Key](../../images/rsa_private_key.png)
+
+## RSA Public Key
 ![Public key](../../images/rsa_public_key.png)
