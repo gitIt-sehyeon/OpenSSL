@@ -58,24 +58,3 @@ in .vscode, c_cpp_properties.json and tasks.json
 
 ```
 
-
-
-Makefile...
-```
-CC = gcc
-CFLAGS = -Wall -Wextra -g -I"{your_path}/OpenSSL-Win64/include"
-LDFLAGS = -L"{your_path}/OpenSSL-Win64/lib/VC/x64/MDd" -lssl -lcrypto
-
-SRC = $(wildcard *.c)
-OBJ = $(SRC:.c=.o)
-TARGET = output.exe
-
-all: $(TARGET)
-
-$(TARGET): $(OBJ)
-	$(CC) $(OBJ) -o $@ $(LDFLAGS)
-
-clean:
-	del *.o *.exe
-
-```
