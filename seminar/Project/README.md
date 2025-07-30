@@ -2,9 +2,9 @@
 
 ### You must have openssl and mingw
 
-All chapter must have .vscode / Makefile like Chapter2 
+All chapter must have .vscode / Makefile like the code below
 
-Build : In terminal, mingw32-make
+Build : mingw32-make
 
 Clean up : mingw32-make clean
 
