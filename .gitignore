@@ -1,0 +1,14 @@
+# Ignore VSCode settings
+.vscode/
+
+# Ignore build artifacts
+*.exe
+*.o
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs/temp
+*.log
+*.tmp
