@@ -4,6 +4,7 @@
 
 ```bash
 $ seq 20000 >somefile.txt
+
 $ openssl dgst -list
 Supported digests:
 -blake2b512                -blake2s256                -md4
@@ -15,6 +16,7 @@ Supported digests:
 -sha512-256                -shake128                  -shake256
 -sm3                       -ssl3-md5                  -ssl3-sha1
 -whirlpool
+
 $ openssl dgst -sha3-256 somefile.txt
 SHA3-256(somefile.txt)= 658656e129914052546af527ba8cf573ab27fb47551a0682ffcf00eeaf56d32b
 ```
