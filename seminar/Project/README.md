@@ -9,7 +9,6 @@ Build : mingw32-make
 Clean up : mingw32-make clean
 
 
-
 in .vscode, c_cpp_properties.json and tasks.json
 
 ### c_cpp_properties.json
