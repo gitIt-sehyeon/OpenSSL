@@ -1,5 +1,7 @@
 # Create message digest using SHA3-256
 
+## Result
+
 $digest.exe somefile.txt
 
 SHA3-256(somefile.txt)= 658656e129914052546af527ba8cf573ab27fb47551a0682ffcf00eeaf56d32b
