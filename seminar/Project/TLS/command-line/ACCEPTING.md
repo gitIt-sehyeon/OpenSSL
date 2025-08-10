@@ -152,6 +152,8 @@ CIPHER is TLS_AES_256_GCM_SHA384
 Secure Renegotiation IS supported
 ```
 
+---
+
 ## Result
 
 ### Client
