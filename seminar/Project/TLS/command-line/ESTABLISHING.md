@@ -1,6 +1,7 @@
 # Establishing a TLS client connection on the command line
 
 ## TLS handshaking
+
 ```bash
 $ openssl s_client -connect example.org:443 -servername example.org
 CONNECTED(00000003)
